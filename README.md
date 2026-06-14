@@ -160,28 +160,8 @@ The website was built with the following objectives:
 
 ---
 
-## Screenshots
 
-*Add screenshots after deployment.*
 
----
-
-## Deployment
-
-The application can be deployed on:
-
-* Vercel (Recommended)
-* Netlify
-* AWS
-* Any platform that supports Next.js applications
-
-To deploy on Vercel:
-
-1. Push the project to GitHub.
-2. Import the repository into Vercel.
-3. Deploy using the default Next.js settings.
-
----
 
 ## Repository
 
