@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nayepankh
 
-## Getting Started
+Nayepankh is a responsive Next.js website for a non-profit/charity. It provides pages for causes, donations, volunteering, contact, and impact information.
 
-First, run the development server:
+## Key Features
+
+- Multi-page Next.js app with server-rendered pages and client components.
+- Reusable UI components: hero, navigation, cause cards, CTA, footer, and stats.
+- Tailwind CSS + PostCSS for styling and responsive layouts.
+- Motion + accessible icons via `framer-motion` and `lucide-react`.
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS
+- Framer Motion
+- TypeScript
+
+## Local Development
+
+Install dependencies and run the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Available npm scripts (from `package.json`):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `dev`: Run Next.js dev server
+- `build`: Build for production
+- `start`: Start production server
+- `lint`: Run ESLint
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/` — Next.js app routes and pages (`page.tsx`, nested folders for pages)
+- `components/` — UI components (`Navbar`, `Hero`, `CauseCards`, etc.)
+- `lib/` — site data and helpers (`site-data.ts`)
+- `public/images/` — static images
+- `README.md` — this file
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can deploy to Vercel (recommended) or any hosting that supports Next.js. For Vercel, connect the repository and set the framework to Next.js; Vercel will handle builds and previews.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Fork the repo and open a pull request for changes.
+- Run `npm run lint` and ensure the app builds with `npm run build` before submitting.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License & Contact
+
+Include your license here (e.g. MIT) and contact info for maintainers or project owners.
+
+---
+
+If you want, I can also: commit this change and attempt to push it to the repository remote. Reply to proceed with commit and push.
